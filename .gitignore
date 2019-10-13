@@ -59,3 +59,29 @@ typings/
 
 # next.js build output
 .next
+node_modules
+
+# Don't clobber local config files
+
+config/config.js
+config/automations.json
+config/plugins.json
+config/devices.json
+config/system.json
+config/places.json
+config/things.json
+config/scenes.json
+config/scenes.json.old
+config/scenes.json.old2
+config/automations.json.old
+config/automations.json.old2
+config/devices.json.old
+config/devices.json.old2
+
+# or database
+
+db/database.sqlite
+
+# or logs
+logs/*
+!logs/DELETE.me
